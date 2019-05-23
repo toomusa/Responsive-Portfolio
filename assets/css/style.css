@@ -170,3 +170,56 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 200%;
     color: #777777;
 }
+
+@media screen and (max-width: 980px) {
+
+    .top-side {
+        width: 70%;
+    }
+
+    .heading {
+        font-size: 24px;
+        margin-left: -5px;
+    }
+
+    .back-side {
+        width: 70%;
+    }
+
+    .main {
+        width: 70%;
+    }
+
+    .footing {
+        width: 70%;
+    }
+}   
+  
+  /* Width at 768px and below */
+@media screen and (max-width: 768px) {
+    body {
+      background-color: #7d2dcd;
+    }
+}
+  
+  /* Width at 168px and below */
+@media screen and (max-width: 640px) {
+    body {
+      background-color: #9f9f9f;
+    }
+}
+
+  
+/* .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-content,
+  #sidebar {
+    width: 100%;
+  }
+
+  #sidebar {
+    margin-top: 40px;
+  } */
